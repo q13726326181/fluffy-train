@@ -1,0 +1,30 @@
+{
+  "name": "easyUpload.js",
+  "version": "3.0.1",
+  "description": "**一款简单简单易用、可配置的H5/Web文件上传插件。支持多文件上传、批量上传、混合上传，以及多实例上传。**",
+  "main": "easyUpload.js",
+  "scripts": {
+    "dev": "npm install && cross-env NODE_ENV=dev grunt & live-server",
+    "build": "npm install && cross-env NODE_ENV=prod grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funnyque/easyUpload.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funnyque/easyUpload.js/issues"
+  },
+  "homepage": "https://github.com/funnyque/easyUpload.js#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "grunt": "^1.4.1",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-ejs": "^1.0.0",
+    "live-server": "^1.2.1"
+  }
+}
